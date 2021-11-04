@@ -7,7 +7,9 @@ main > section {
     align-content: space-between;
 }
 
-
+.headerimage{
+  width:100vw;
+}
 article{
     border: 5px solid black
 }
@@ -23,13 +25,6 @@ body {
     flex-wrap: wrap;
   }
 
-  .header {
-    padding: 1px;
-    text-align: center;
-    background: green;
-    color: white;
-    font-size: 30px;
-  }
 
   .button {
     padding: 15px 25px;
@@ -207,9 +202,84 @@ input[type=submit]:hover {
   flex-wrap: wrap;
 }
 .rulespage>main>section>article {
-  width: 30vw;
+  width: 24vw;
   overflow: hidden;
 }
 .rulespage>main>section>article {
   object-fit: cover;
+}
+
+.indexpage {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+.indexpage>main>section>article {
+  width: 24vw;
+  overflow: hidden;
+}
+.indexpage>main>section>article {
+  object-fit: cover;
+}
+
+.expopage {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+.expopage>main>section>article {
+  width: 24vw;
+  overflow: hidden;
+}
+.expopage>main>section>article {
+  object-fit: cover;
+}
+
+.maintag2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.aboutpage {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+.aboutpage>main>section>article {
+  width: 30vw;
+  overflow: hidden;
+}
+.aboutpage>main>section>article {
+  object-fit: cover;
+}
+
+
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+h2{
+  color: white;
+}
+
+.maintag {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.book2 {
+  min-width: 600px;
+}
+.inbook {
+  display: flex;
+  flex-direction: column;
 }
